@@ -20,9 +20,6 @@ export function SiteHeader() {
           <a href="#services" className="hidden text-sm text-muted-foreground transition-colors hover:text-foreground sm:inline">
             Services
           </a>
-          <a href="#contact" className="hidden text-sm text-muted-foreground transition-colors hover:text-foreground sm:inline">
-            Contact
-          </a>
           <Button render={<a href={`mailto:${CONTACT_EMAIL}`} />} nativeButton={false} size="sm">
             Email Us
           </Button>
